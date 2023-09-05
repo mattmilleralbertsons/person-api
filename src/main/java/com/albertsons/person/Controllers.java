@@ -30,7 +30,7 @@ public class Controllers {
         return ResponseEntity.ok(person);
     }
 
-    @PostMapping("/")
+    @PostMapping
     public ResponseEntity<Person> postPerson(@RequestBody Person person) {
         Person created = personService.createPerson(person);
 

@@ -29,7 +29,7 @@ public class PersonApiApplication {
 			Person person = new Person();
 			Name name = faker.name();
 			person.setFirstName(name.firstName());
-			person.setLastName("Smith");
+			person.setLastName("Smithzers");
 
 			personService.createPerson(person);
 		}
