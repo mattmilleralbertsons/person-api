@@ -39,3 +39,5 @@ curl --location 'localhost:8080/people/xxxxxx-xxxx-xxxxxx-xxxxxx'
 
 # IDE
 Get the code in your favorite IDE so we can do some live coding.
+* This code uses Project Lombok...
+* For IDEA: Make sure `annotation processing` is enabled an the Lombok plugin is installed.
